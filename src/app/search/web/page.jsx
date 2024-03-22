@@ -11,7 +11,7 @@ export default async function WebSearchPage({searchParams}) {
         return(
             <div className='flex flex-col justify-center items-center pt-10'>
                 <h1 className='text-3xl mb-4'>
-                    No results foun for {searchParams.searchTerm}
+                    No results found for {searchParams.searchTerm}
                 </h1>
                 <p className='text-lg'>
                     Try searching the web or images for something else {' '}
