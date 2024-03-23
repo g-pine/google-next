@@ -1,3 +1,5 @@
+"use client"
+import Link from 'next/link'
 import ImageSearchResults from '@/components/ImageSearchResults';
 
 export default async function ImageSearchPage({searchParams}) {
@@ -15,9 +17,9 @@ export default async function ImageSearchPage({searchParams}) {
                 </h1>
                 <p className='text-lg'>
                     Try searching the web or images for something else {' '}
-                    <a href='/' className='text-blue-500'>
+                    <Link href='/' className='text-blue-500'>
                         Home
-                    </a>
+                    </Link>
                 </p>
             </div>
         );
