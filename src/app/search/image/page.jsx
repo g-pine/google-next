@@ -1,4 +1,4 @@
-"use client"
+
 import Link from 'next/link'
 import ImageSearchResults from '@/components/ImageSearchResults';
 
@@ -30,3 +30,5 @@ export default async function ImageSearchPage({searchParams}) {
     </div>
   )
 }
+
+ImageSearchPage.useClient = true;

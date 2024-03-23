@@ -30,3 +30,5 @@ export default async function WebSearchPage({searchParams}) {
     </div>
   )
 }
+
+WebSearchPage.useClient = true;
