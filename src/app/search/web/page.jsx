@@ -1,4 +1,4 @@
-"use client"
+
 import Link from 'next/link'
 import WebSearchResuts from '@/components/WebSearchResuts';
 
@@ -30,5 +30,3 @@ export default async function WebSearchPage({searchParams}) {
     </div>
   )
 }
-
-WebSearchPage.useClient = true;

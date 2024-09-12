@@ -30,5 +30,3 @@ export default async function ImageSearchPage({searchParams}) {
     </div>
   )
 }
-
-ImageSearchPage.useClient = true;
